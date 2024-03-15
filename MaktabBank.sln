@@ -1,0 +1,74 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Domain", "01.Domain", "{96DDC247-B5FC-4ABE-9E5D-D962D05929DE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Infrastructure", "02.Infrastructure", "{8DA4A225-D241-476E-AA5C-5763D868702D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Endpoints", "03.Endpoints", "{C696C6EA-FE9D-4A17-BB0A-D4FA3A3C4420}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{77E9E43A-23B5-4104-AA71-849C3BF5B97F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{67D44980-CA4B-446F-9152-E5B470FE9CBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{46929AA5-96BE-47A8-B481-F2A40C2C8ED4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppServices", "AppServices", "{D50FC3E8-A8FC-46BF-B348-E3C40E79FE44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaktabBank.Core.Core", "MaktabBank.Core.Core\MaktabBank.Core.Core.csproj", "{8D57CB62-7166-47DD-9E64-96F5EEE8230B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaktabBank.Services.Services", "MaktabBank.Services.Services\MaktabBank.Services.Services.csproj", "{6D25B524-B0F5-4FF6-A846-C1F90CA04DBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaktabBank.Services.AppServices", "MaktabBank.Services.AppServices\MaktabBank.Services.AppServices.csproj", "{7470878F-61C6-445F-BFFD-036185909388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaktabBank.Infrastructure.EfCore", "MaktabBank.Infrastructure.EfCore\MaktabBank.Infrastructure.EfCore.csproj", "{2876BF72-6EB6-4AF3-86B3-E5EDE2317E40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaktabBank.Endpoint.RazorPages", "WebApplication1\MaktabBank.Endpoint.RazorPages.csproj", "{6536C7D3-A6AD-434D-BCDF-23F56D427629}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D57CB62-7166-47DD-9E64-96F5EEE8230B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D57CB62-7166-47DD-9E64-96F5EEE8230B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D57CB62-7166-47DD-9E64-96F5EEE8230B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D57CB62-7166-47DD-9E64-96F5EEE8230B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D25B524-B0F5-4FF6-A846-C1F90CA04DBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D25B524-B0F5-4FF6-A846-C1F90CA04DBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D25B524-B0F5-4FF6-A846-C1F90CA04DBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D25B524-B0F5-4FF6-A846-C1F90CA04DBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7470878F-61C6-445F-BFFD-036185909388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7470878F-61C6-445F-BFFD-036185909388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7470878F-61C6-445F-BFFD-036185909388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7470878F-61C6-445F-BFFD-036185909388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2876BF72-6EB6-4AF3-86B3-E5EDE2317E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2876BF72-6EB6-4AF3-86B3-E5EDE2317E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2876BF72-6EB6-4AF3-86B3-E5EDE2317E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2876BF72-6EB6-4AF3-86B3-E5EDE2317E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6536C7D3-A6AD-434D-BCDF-23F56D427629}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6536C7D3-A6AD-434D-BCDF-23F56D427629}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6536C7D3-A6AD-434D-BCDF-23F56D427629}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6536C7D3-A6AD-434D-BCDF-23F56D427629}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{77E9E43A-23B5-4104-AA71-849C3BF5B97F} = {96DDC247-B5FC-4ABE-9E5D-D962D05929DE}
+		{67D44980-CA4B-446F-9152-E5B470FE9CBB} = {96DDC247-B5FC-4ABE-9E5D-D962D05929DE}
+		{46929AA5-96BE-47A8-B481-F2A40C2C8ED4} = {67D44980-CA4B-446F-9152-E5B470FE9CBB}
+		{D50FC3E8-A8FC-46BF-B348-E3C40E79FE44} = {67D44980-CA4B-446F-9152-E5B470FE9CBB}
+		{8D57CB62-7166-47DD-9E64-96F5EEE8230B} = {77E9E43A-23B5-4104-AA71-849C3BF5B97F}
+		{6D25B524-B0F5-4FF6-A846-C1F90CA04DBF} = {46929AA5-96BE-47A8-B481-F2A40C2C8ED4}
+		{7470878F-61C6-445F-BFFD-036185909388} = {D50FC3E8-A8FC-46BF-B348-E3C40E79FE44}
+		{2876BF72-6EB6-4AF3-86B3-E5EDE2317E40} = {8DA4A225-D241-476E-AA5C-5763D868702D}
+		{6536C7D3-A6AD-434D-BCDF-23F56D427629} = {C696C6EA-FE9D-4A17-BB0A-D4FA3A3C4420}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D08566E-8489-47A6-9A5F-79E8ACCBD630}
+	EndGlobalSection
+EndGlobal
